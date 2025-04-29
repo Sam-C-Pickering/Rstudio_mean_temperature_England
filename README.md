@@ -36,6 +36,14 @@ Figure 5: Temperature anomalie method 2
 
 -------------------------------------------------------------------------------------------------------------------
 
+![Temp anom1](https://github.com/user-attachments/assets/11356a5d-a3c0-400f-be1a-607440c63f5b)
 
+
+Figure 6: 1959-1990 Temperature anomalie raw data with smoothed data
+
+
+![temp anom2](https://github.com/user-attachments/assets/0eea8cbc-1a7a-4a08-b798-7adc7f1a4140)
+
+Figure 7:
 
 England’s mean temperature has progressively increased steeply in the last 60 years indicating that there is a strong driver in increasing the average temperature, and is likely to be Human in origin.
