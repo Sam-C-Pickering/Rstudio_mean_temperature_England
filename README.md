@@ -7,6 +7,7 @@ To check that there was a general trend in temperature increase, loess smoothing
 
 
 ![Initial_graph](https://github.com/user-attachments/assets/e35a9a5c-726c-4624-b6c7-38b0f5cb6c98)
+
 Figure 1: Raw temperature data from 1884 - 2024.
 
 
@@ -18,9 +19,11 @@ This period was selected as seen in figure 3 & 4, the method used was done to co
 
 
 ![Loess_smoothing_regression_wRAW](https://github.com/user-attachments/assets/b7ce55bd-2516-418b-9741-8d43e4ec9356)
+
 Figure 2: Raw data overlaid with Loess smoothing regression method.
 
 ![10yr_moving_average_smoothed_only](https://github.com/user-attachments/assets/3eb7f67f-6430-4a0b-9efd-46f2aa3beea1)
+
 Figure 3: Loess smoothing regression method only
 
 -------------------------------------------------------------------------------------------------------------------
