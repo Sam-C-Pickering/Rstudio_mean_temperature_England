@@ -27,23 +27,23 @@ Next the temperature averages from the period range of 1959-1990 were calculated
 
 ![Temp_anomalies_method1](https://github.com/user-attachments/assets/51f8de9a-e55b-45f2-bb13-c50e88c6f7da)
 
-Figure 4: Temperature anomalie method 1
+Figure 4: 1959-1990 Temperature anomalie method 1
 
 
 ![Temp_anomalies_method2](https://github.com/user-attachments/assets/65bd43d1-4379-465c-8098-81709bb4ed17)
 
-Figure 5: Temperature anomalie method 2
+Figure 5: 1959-1990 Temperature anomalie method 2
 
 -------------------------------------------------------------------------------------------------------------------
 
 ![Temp anom1](https://github.com/user-attachments/assets/11356a5d-a3c0-400f-be1a-607440c63f5b)
 
 
-Figure 6: 1959-1990 Temperature anomalie raw data with smoothed data
+Figure 6: 1959-1990 Temperature anomalie average loess smoothing 10 yr moving average overlaid with raw data.
 
 
 ![temp anom2](https://github.com/user-attachments/assets/0eea8cbc-1a7a-4a08-b798-7adc7f1a4140)
 
-Figure 7:
+Figure 7: 1959-1990 Temperature anomalie average loess smoothing 10 yr moving average.
 
-England’s mean temperature has progressively increased steeply in the last 60 years indicating that there is a strong driver in increasing the average temperature, and is likely to be Human in origin.
+England’s mean temperature has progressively increased steeply in the last 65 years indicating that there is a strong driver in increasing the average temperature, and is likely to be Human in origin.
