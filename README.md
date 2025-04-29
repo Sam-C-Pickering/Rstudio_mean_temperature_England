@@ -2,7 +2,8 @@
 Exploratory data analysis on England's mean temperature data from Met Office National Climate Information Centre 
 Years: 1884 - 2024 
 -------------------------------------------------------------------------------------------------------------------
-
+England’s mean average temperature has been increasing over time with a noticable temperature anomality between 1659 – 2024 indicating a sharp increase in mean temperature.
+To check that there was a general trend in temperature increase, loess smoothing was applied to the raw data, to remove noise from the plot to uncover a more accurate temperature trend.
 
 ![Initial_graph](https://github.com/user-attachments/assets/e35a9a5c-726c-4624-b6c7-38b0f5cb6c98)
 
@@ -10,6 +11,10 @@ Years: 1884 - 2024
 
 -------------------------------------------------------------------------------------------------------------------
 
+Loess smoothing with a 10-year moving average, shows that England has gone through some periods that are warmer than average.
+
+Next the temperature averages from the period range of 1959-1990 were calculated and then subtracted from the mean annual temperatures for the remaining years in the dataset.
+This period was selected as seen in figure 3 & 4, the method used was done to correct any anomalies in the mean values of 1959- 1990. 
 
 ![10 moving average wraw](https://github.com/user-attachments/assets/702760db-4be8-41d0-b657-c7302915daba)
 
@@ -18,6 +23,7 @@ Years: 1884 - 2024
 
 -------------------------------------------------------------------------------------------------------------------
 
+Next the temperature averages from the period range of 1959-1990 were calculated and then subtracted from the mean annual temperatures for the remaining years in the dataset.
 
 ![Temp_anomalies_10yr_smoothed_1](https://github.com/user-attachments/assets/46577676-e184-4f58-9068-1368138e8a44)
 
@@ -29,4 +35,4 @@ Years: 1884 - 2024
 
 ![Temp_anomalies_method2](https://github.com/user-attachments/assets/eb2d4039-d54b-4768-bb0f-e58da42d4a13)
 
-
+England’s mean temperature has progressively increased steeply in the last 60 years indicating that there is a strong driver in increasing the average temperature, and is likely to be Human in origin.
