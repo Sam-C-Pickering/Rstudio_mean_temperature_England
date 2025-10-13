@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------------------------------------------
-Exploratory data analysis on England's mean temperature data from Met Office National Climate Information Centre 
+Exploratory data analysis on England's mean temperature data from the Met Office's National Climate Information Centre 
 Years: 1884 - 2024 
 -------------------------------------------------------------------------------------------------------------------
-England’s mean average temperature has been increasing over time with a noticable temperature anomality between 1959 – 2024 indicating a sharp increase in mean temperature.
-To check that there was a general trend in temperature increase, loess smoothing was applied to the raw data, to remove noise from the plot to uncover a more accurate temperature trend. 
+England’s mean average temperature has been increasing over time with a noticable temperature anomality between 1959 – 2024 with a sharp increase in average temperature.
+To check that there was a general trend in temperature increase, loess smoothing was applied to the raw data, to remove noise from the plot and to uncover a more accurate temperature trend. 
 
 
 ![Initial_graph](https://github.com/user-attachments/assets/e35a9a5c-726c-4624-b6c7-38b0f5cb6c98)
