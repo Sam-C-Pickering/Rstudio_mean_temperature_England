@@ -48,21 +48,9 @@ Raw data and loess smoothing
 
 Figure 1 shows the noisy raw annual series. Figure 2 overlays the loess-smoothed line (red), which reveals a gentle rise through the 20th century and a sharp rise after about 1980.
 
-Loess only and anomaly scatter (method 1)
-
-Loess only and anomalies method 1
-
 Figure 3 isolates the smoothed trend. Figure 4 shows each year's deviation from the 1959–1990 mean: blue points (cooler) dominate the early record and red points (warmer) dominate the period after the late 1980s.
 
-Anomalies as a line (method 2) and moving average overlay
-
-Anomalies method 2 and moving average
-
 Figure 5 shows the anomalies as a continuous line. Figure 6 overlays the 10-year moving average (red) on the raw anomalies (black) to separate the trend from year-to-year variability.
-
-Smoothed anomalies only
-
-Smoothed anomalies
 
 Figure 7 shows only the smoothed anomaly. It stays near zero for most of the 20th century and then rises steeply from the 1980s, indicating a strong recent warming signal.
 
