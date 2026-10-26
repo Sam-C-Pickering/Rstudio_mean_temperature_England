@@ -43,7 +43,6 @@ A centred 10-year moving average (stats::filter() with equal weights of 1/10, si
 
 Results:
 
-Raw data and loess smoothing
 
 Raw data and loess smoothing
 
