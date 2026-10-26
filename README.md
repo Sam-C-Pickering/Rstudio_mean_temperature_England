@@ -1,6 +1,7 @@
 An exploratory data analysis (EDA) in R of England's annual mean temperature, using data from the Met Office National Climate Information Centre. The aim is to visualise the long-term trend, strip out year-to-year noise with smoothing, and show how recent years deviate from a historical baseline period.
 
-Summary of Findings
+Summary of Findings:
+
 England's mean annual temperature has risen over the 1884–2024 record, with a noticeable acceleration from roughly 1980 onwards.
 Raw annual values are noisy (roughly 7.7 °C to 11 °C), so smoothing was applied to make the underlying trend clearer.
 Relative to the 1959–1990 baseline, most years before 1980 sit around or below 0 °C, while nearly all years since the late 1980s are above it, reaching about +1.8 °C in the most recent years.
@@ -10,7 +11,8 @@ Requirements
 R (≥ 4.0 recommended)
 timetk – used for smooth_vec() (loess smoothing)
 --
-Methodology
+Methodology:
+
 1. Data loading
 
 The data is read with read.table() (whitespace-separated, with header). Columns 14–17 are dropped, leaving the year, the 12 monthly values and the annual mean (ann).
@@ -35,7 +37,8 @@ A centred 10-year moving average (stats::filter() with equal weights of 1/10, si
 
 --
 
-Results
+Results:
+
 Raw data and loess smoothing
 
 Raw data and loess smoothing
