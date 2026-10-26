@@ -1,3 +1,5 @@
+UPDATING 26/10/26
+
 An exploratory data analysis (EDA) in R of England's annual mean temperature, using data from the Met Office National Climate Information Centre. The aim is to visualise the long-term trend, strip out year-to-year noise with smoothing, and show how recent years deviate from a historical baseline period.
 
 Summary of Findings:
