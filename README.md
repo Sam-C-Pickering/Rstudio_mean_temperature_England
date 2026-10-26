@@ -2,13 +2,13 @@ An exploratory data analysis (EDA) in R of England's annual mean temperature, us
 
 Summary of Findings:
 
-England's mean annual temperature has risen over the 1884–2024 record, with a noticeable acceleration from roughly 1980 onwards.
+1. England's mean annual temperature has risen over the 1884–2024 record, with a noticeable acceleration from roughly 1980 onwards.
 
-Raw annual values are noisy (roughly 7.7 °C to 11 °C), so smoothing was applied to make the underlying trend clearer.
+2. Raw annual values are noisy (roughly 7.7 °C to 11 °C), so smoothing was applied to make the underlying trend clearer.
 
-Relative to the 1959–1990 baseline, most years before 1980 sit around or below 0 °C, while nearly all years since the late 1980s are above it, reaching about +1.8 °C in the most recent years.
+3. Relative to the 1959–1990 baseline, most years before 1980 sit around or below 0 °C, while nearly all years since the late 1980s are above it, reaching about +1.8 °C in the most recent years.
 
-The 10-year smoothed anomaly stays close to 0 °C from about 1900 to 1980, then climbs steeply to around +1.4 °C by the end of the series.
+4. The 10-year smoothed anomaly stays close to 0 °C from about 1900 to 1980, then climbs steeply to around +1.4 °C by the end of the series.
 ---
 Requirements
 R (≥ 4.0 recommended)
@@ -34,6 +34,7 @@ The mean annual temperature for 1959–1990 is calculated and subtracted from ev
 
 Method 1: a scatter plot, with warmer-than-baseline years in red and cooler years in blue (Figure 4).
 Method 2: a line plot of the same anomalies (Figure 5).
+
 5. Moving-average smoothing of anomalies
 
 A centred 10-year moving average (stats::filter() with equal weights of 1/10, sides = 2) is applied to the anomalies. It is shown overlaid on the raw anomalies (Figure 6) and on its own (Figure 7).
