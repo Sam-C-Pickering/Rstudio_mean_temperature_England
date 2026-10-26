@@ -1,5 +1,3 @@
-UPDATING 26/10/26
-
 An exploratory data analysis (EDA) in R of England's annual mean temperature, using data from the Met Office National Climate Information Centre. The aim is to visualise the long-term trend, strip out year-to-year noise with smoothing, and show how recent years deviate from a historical baseline period.
 
 Summary of Findings:
@@ -70,45 +68,39 @@ Smoothed anomalies
 Figure 7 shows only the smoothed anomaly. It stays near zero for most of the 20th century and then rises steeply from the 1980s, indicating a strong recent warming signal.
 
 --
-
-![Initial_graph](https://github.com/user-attachments/assets/e35a9a5c-726c-4624-b6c7-38b0f5cb6c98)
+<img width="664" height="664" alt="raw_data_smoothing_0 1" src="https://github.com/user-attachments/assets/f2400fca-15ee-41f1-8fce-6ba83b102048" />
 
 Figure 1: Raw temperature data from 1884 - 2024.
 
-![Loess_smoothing_regression_wRAW](https://github.com/user-attachments/assets/b7ce55bd-2516-418b-9741-8d43e4ec9356)
+<img width="664" height="664" alt="smoothed_w_raw" src="https://github.com/user-attachments/assets/5a7deb20-fe7b-4284-9e17-603490ebe898" />
 
 Figure 2: Raw data overlaid with Loess smoothing regression method.
 
-![10yr_moving_average_smoothed_only](https://github.com/user-attachments/assets/3eb7f67f-6430-4a0b-9efd-46f2aa3beea1)
+<img width="664" height="664" alt="only_smoothing" src="https://github.com/user-attachments/assets/7d5c90cd-6774-42c7-bf07-23344854c014" />
 
 Figure 3: Loess smoothing regression method only
 
 -------------------------------------------------------------------------------------------------------------------
 
 
+<img width="664" height="664" alt="anom_meth_1" src="https://github.com/user-attachments/assets/d08e0d74-97a3-450c-ac30-2ba1f4c02625" />
 
-Next the temperature averages from the period range of 1959-1990 were calculated and then subtracted from the mean annual temperatures for the remaining years in the dataset to show the deviation from the selected period.
+Figure 4: 1959-1990 mean Temperature difference method 1
 
+<img width="664" height="664" alt="method2" src="https://github.com/user-attachments/assets/8c2a15cb-d890-4826-8435-feac1e26cac2" />
 
-![Temp_anomalies_method1](https://github.com/user-attachments/assets/51f8de9a-e55b-45f2-bb13-c50e88c6f7da)
-
-Figure 4: 1959-1990 Temperature anomalie method 1
-
-
-![Temp_anomalies_method2](https://github.com/user-attachments/assets/65bd43d1-4379-465c-8098-81709bb4ed17)
-
-Figure 5: 1959-1990 Temperature anomalie method 2
+Figure 5: 1959-1990 mean Temperature difference method 2
 
 -------------------------------------------------------------------------------------------------------------------
 
-![Temp anom1](https://github.com/user-attachments/assets/11356a5d-a3c0-400f-be1a-607440c63f5b)
+<img width="664" height="664" alt="smoothed_only" src="https://github.com/user-attachments/assets/0303de17-6b12-4217-a0f9-548443f1c887" />
 
 
-Figure 6: 1959-1990 Temperature anomalie average loess smoothing 10 yr moving average overlaid with raw data.
+Figure 6: 1959-1990 Temperature anomaly mean loess smoothing 10 yr moving average overlaid with raw data.
 
 
-![temp anom2](https://github.com/user-attachments/assets/0eea8cbc-1a7a-4a08-b798-7adc7f1a4140)
+<img width="664" height="664" alt="smoothed_w_raw" src="https://github.com/user-attachments/assets/38ba6103-edfd-43fe-8440-6aec718c6daf" />
 
-Figure 7: 1959-1990 Temperature anomalie average loess smoothing 10 yr moving average.
+Figure 7: 1959-1990 Temperature anomaly mean loess smoothing 10 yr moving average.
 
-England’s mean temperature has progressively increased steeply in the last 65 years indicating that there is a strong driver in increasing the average temperature, and is likely to be Human in origin.
+
